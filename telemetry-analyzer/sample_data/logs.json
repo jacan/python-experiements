@@ -1,0 +1,14 @@
+[
+  {
+    "timestamp": "2026-05-14T10:00:00Z",
+    "service": "gateway",
+    "level": "ERROR",
+    "message": "Unexpected termination, SIGKILL received"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "payment",
+    "level": "WARNING",
+    "message": "Retry threshold exceeded"
+  }
+]
