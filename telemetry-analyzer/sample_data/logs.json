@@ -24,39 +24,63 @@
     "message": "Unknown card"
   },
   {
-    "timestamp": "2026-05-14T10:01:00Z",
+    "timestamp": "2026-05-15T10:01:00Z",
     "service": "payment",
     "level": "INFO",
     "message": "Payment processed"
   },
   {
-    "timestamp": "2026-05-14T10:01:00Z",
+    "timestamp": "2026-05-15T10:01:00Z",
     "service": "invoice",
     "level": "ERROR",
     "message": "Spooler unable to create invoice"
   },
   {
-    "timestamp": "2026-05-14T10:01:00Z",
+    "timestamp": "2026-05-15T10:01:00Z",
     "service": "audit",
     "level": "ERROR",
     "message": "Transaction not completed, missing MFA"
   },
   {
-    "timestamp": "2026-05-14T10:01:00Z",
+    "timestamp": "2026-05-15T10:01:00Z",
     "service": "frontend",
     "level": "ERROR",
     "message": "CDN unreachable"
   },
   {
-    "timestamp": "2026-05-14T10:01:00Z",
+    "timestamp": "2026-05-16T10:01:00Z",
     "service": "inventory",
     "level": "ERROR",
     "message": "Inventory item does not exist"
   },
   {
-    "timestamp": "2026-05-14T10:01:00Z",
+    "timestamp": "2026-05-16T10:01:00Z",
     "service": "payment",
     "level": "ERROR",
     "message": "Card rejected"
+  },
+  {
+    "timestamp": "2026-05-16T10:00:00Z",
+    "service": "gateway",
+    "level": "INFO",
+    "message": "Request received"
+  },
+  {
+    "timestamp": "2026-05-16T10:00:01Z",
+    "service": "auth",
+    "level": "WARNING",
+    "message": "Token validation slow"
+  },
+  {
+    "timestamp": "2026-05-17T10:00:02Z",
+    "service": "payments",
+    "level": "ERROR",
+    "message": "Database timeout"
+  },
+  {
+    "timestamp": "2026-05-17T10:00:03Z",
+    "service": "gateway",
+    "level": "ERROR",
+    "message": "Upstream service unavailable"
   }
 ]
