@@ -10,5 +10,53 @@
     "service": "payment",
     "level": "WARNING",
     "message": "Retry threshold exceeded"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "payment",
+    "level": "WARNING",
+    "message": "Retry threshold exceeded"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "payment",
+    "level": "ERROR",
+    "message": "Unknown card"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "payment",
+    "level": "INFO",
+    "message": "Payment processed"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "invoice",
+    "level": "ERROR",
+    "message": "Spooler unable to create invoice"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "audit",
+    "level": "ERROR",
+    "message": "Transaction not completed, missing MFA"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "frontend",
+    "level": "ERROR",
+    "message": "CDN unreachable"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "inventory",
+    "level": "ERROR",
+    "message": "Inventory item does not exist"
+  },
+  {
+    "timestamp": "2026-05-14T10:01:00Z",
+    "service": "payment",
+    "level": "ERROR",
+    "message": "Card rejected"
   }
 ]
