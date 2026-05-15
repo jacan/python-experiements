@@ -7,3 +7,8 @@ def logs_to_data_frame(logs: list[LogEntry]) -> pd.DataFrame:
 
 def get_errors(df: pd.DataFrame) -> pd.DataFrame:
     return df[df["level"] == "ERROR"]
+
+def count_errors_by_service(df: pd.DataFrame) -> pd.Series:
+    errors = df[df["level"] == "ERROR"]
+
+    return errors.groupby("service").size()

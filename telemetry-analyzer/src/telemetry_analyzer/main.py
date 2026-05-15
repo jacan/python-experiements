@@ -4,7 +4,8 @@ from pathlib import Path
 from telemetry_analyzer.parser import load_logs
 from telemetry_analyzer.analyzer import (
     logs_to_data_frame,
-    get_errors
+    get_errors,
+    count_errors_by_service
 )
 
 def main():
@@ -15,6 +16,9 @@ def main():
     dataframe = logs_to_data_frame(logs)
     errors = get_errors(dataframe)
 
+    error_count = count_errors_by_service(dataframe)
+
+    print(error_count)
     print(errors)
 
 if __name__ == "__main__": main()
