@@ -33,3 +33,15 @@ def rolling_error_count(df: pd.DataFrame) -> pd.Series:
         .rolling(window=3)
         .mean()
     )
+
+def service_error_matrix(df: pd.DataFrame) -> pd.DataFrame:
+    errors = df[df["level"] == "ERROR"]
+
+    return pd.crosstab(
+        errors["timestamp"],
+        errors["service"]
+    )
+
+def correlate_service_error_matrix(df: pd.DataFrame) -> pd.DataFrame:
+    error_matrix= service_error_matrix(df)
+    return error_matrix.corr()
